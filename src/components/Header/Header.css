@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    height: 60px;
+    background-color: rgb(128, 0, 128, 0.3);
+    padding: 0 15px 0 15px;
+}
+
+.logo img {
+    width: 335.98px;
+    height: 60px;
+}
+
+.navbar-button {
+    margin-left: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 23px;
+    text-decoration: none;
+}
+
+.navbar-button-social {
+    padding-right: 40px;
+}
+
+.navbar-button-social li a {
+    font-size: 20px;
+    padding: 18px 7px;
+}
+
+.navbar-button-social li:last-child {
+    padding-right: 100px;
+}
