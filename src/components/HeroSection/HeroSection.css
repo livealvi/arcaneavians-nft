@@ -1,0 +1,27 @@
+.hero {
+    height: 683.59px;
+    background-image: url('../../asset/img/animation.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero__content {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.hero__content h1 {
+    font-size: 55px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.hero__content p {
+    font-size: 25px;
+    color: #3c2f4b;
+}
