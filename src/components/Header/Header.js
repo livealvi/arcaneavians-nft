@@ -25,18 +25,20 @@ const Header = () => {
               </a>
             </li>
           </span>
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Roadmap</a>
-          </li>
-          <li>
-            <a href="">FAQ</a>
-          </li>
+          <span className="navbar-button-link">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Roadmap</a>
+            </li>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+          </span>
         </ul>
       </div>
     </div>
