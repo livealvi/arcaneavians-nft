@@ -6,6 +6,8 @@
 
 .section {
     background-color: black;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 ::selection {

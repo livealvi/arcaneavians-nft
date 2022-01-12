@@ -3,5 +3,17 @@
 }
 
 .article__content__head {
-    text-decoration: underline;
+    color: white;
+    text-decoration-thickness: 5px;
+}
+
+.article__content__paragraph {
+    margin: 20px 0 40px 0;
+}
+
+span {
+    font-size: 50px;
+    color: white;
+    line-height: 0.2;
+    position: absolute;
 }

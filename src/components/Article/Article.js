@@ -8,8 +8,12 @@ const Article = (props) => {
   return (
     <div className="article">
       <div className="article__content">
-        <p className="article__content__head">{head}</p>
-        <div dangerouslySetInnerHTML={{ __html: paragraph }} />
+        <u className="article__content__head">{head}</u>
+        <span>-</span>
+        <div
+          className="article__content__paragraph"
+          dangerouslySetInnerHTML={{ __html: paragraph }}
+        />
       </div>
     </div>
   );
