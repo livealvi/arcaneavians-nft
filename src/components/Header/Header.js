@@ -6,7 +6,7 @@ import { faDiscord, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   return (
-    <div className="navbar">
+    <div className="nav_bar">
       <div className="navbar__wrapper">
         <div className="navbar__logo">
           <img src={logo} alt="logo" />

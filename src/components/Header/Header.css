@@ -1,4 +1,4 @@
-.navbar {
+.nav_bar {
     height: 60px;
     background-color: transparent;
     background-image: linear-gradient(130deg, #6300DD80 0%, #00A5FF85 100%);
@@ -24,6 +24,7 @@
 ul {
     list-style-type: none;
     display: flex;
+    margin-bottom: 0 !important;
 }
 
 li a {

@@ -1,0 +1,66 @@
+[{
+        "img_gif": "./asset/img/tokengif.gif",
+        "header": "About",
+        "info": "1 $FLAP = 1 $FLAP",
+        "article": "Each avian held will allow the holder to receive a multitude of utilities that will be announced and explained more thoroughly over time. Owning an avian will allow you to claim $FLAP tokens regularly. Your tokens will reward you in game, in the real world, and in the metaverse. Expect loads of airdrops and unlockables ranging from in game cosmetics, other generations of Arcane Avians NFTs, collaborations with other projects, and digital 3D models and variations of your own avian. That is just a taste of what is to come. We strive to be a community based project first and foremost and are determined to reward members within the community as much as possible. Expect a ton of collaborations over time and frequent updates and engagement. we have a lot planned and hope our holders have fun along the way."
+    },
+    {
+        "img": "./asset/img/tokenpng.png",
+        "header": "Roadmap",
+        "title_1": "Phase 1",
+        "article-head_1": "Mythic Auction",
+        "article_1_p1": "Introducing some of the rarest Avians in the genesis collection. These 15 will be dispersed evenly between auctions, giveaways, and through the initial mint. These will all be unique 1/1 Avians, 10 of which will be animated",
+        "article_1_p2": "After minting goes live a lucky few of you will be holders of some of these mythic avians then we will auction off a portion of the other mythics on OpenSea. Giveaways for the other mythics may be more sporadic so keep your eyes peeled and stay on the lookout for these opportunities. expect more giveaways from us throughout time.",
+
+        "article-head_2": "Allocation of proceeds",
+        "article_2_p1": "10% of the proceeds from the initial mint as well as 2.5% of the secondary market sales will go to a Production wallet that will be used to further develop the project and to reward the talent within our community. Holders will be able to vote, suggest, and decide on the paths we take together.",
+        "article_2_p2": "5% of the the proceeds from the initial mint will be donated to various families that are in need of assistance.",
+        "article_2_p3": "35% of the proceeds from the auctions will go towards funding the production wallet.",
+        "article_2_p4": "15% of the proceeds from the auctions will go towards helping families in need.",
+
+        "title_2": "Phase 2",
+        "article-head_3": "Token",
+        "article_3_p1": "Shortly after minting we will release our contract so holders will be able to claim their $FLAP tokens. More information will be available on the tokens after certain aspects have been finalized.",
+
+        "article-head_4": "Team",
+        "article_4_p1": "We would like to expand our team for certain positions that we could use more experience and help with. What better way than looking for participants within the community who already share similar interests and want this project to thrive as much as we do. As well as searching and officiating relationships with other artists and developers around the world to continue the development of our project in various ways.",
+
+        "article-head_5": "New Generations",
+        "article_5_p1": "Airdrops, new art, and utilities are a huge factor when it comes to any NFT project and we will ensure the most for our flock. Earn and unlock baby avians, in-game assets, avians from the future, pets, and more along this journey.",
+
+        "title_3": "Phase 3",
+        "article-head_6": "Game",
+        "article_6_p1": "Development of our own game will begin as well as partnerships with other games in the metaverse. Soon you will be able to soar across the metaverse in style, being your own avian.",
+
+        "article_6_p2": "A few Arcane Avian mini-games will be released while we work on the actual game over time.",
+
+        "article_6_p3": "interactive lounge for holders to hang out and enjoy the mini-games/events within the lobby. Will more than likely be intertwined in some way with the official game itself.",
+
+        "article_6_p4": "Our game will mainly be composed of ideas from holders inside the community. You will serve a significant role in making the game what it is along with other aspects of the project.",
+
+        "article_7_p5": "Expect to receive airdrops of items/cosmetics in game just by holding an avian at the time of a snapshot, some of which you’ll never be capable of earning or unlocking again after the initial airdrop.",
+
+        "title_4": "Phase 4",
+        "article-head_8": "TBA",
+        "article_8_1": "After seeing the direction the projects going and the wants and needs for the project and its holders we will then determine what this phase will entail and the many phases thereafter.",
+
+        "article_8_2": "We are excited to get the members of the community as involved in the future of the project as possible and cannot wait to see where this thing goes."
+    },
+    {
+        "header": "FAQS",
+        "article-head_1": "BLOCKCHAIN?",
+        "article_1_p1": "Ethereum?",
+
+        "article-head_2": "Price",
+        "article_2_p2": "0.06 ETH",
+
+        "article-head_3": "How to mint an Arcane Avian NFT?",
+        "article_3_p3": "The best way is to download and sign up with MetaMask if you have not already done so and then send ETH to your MetaMask wallet. Make sure to send yourself enough to cover both the mint price and the gas fee.",
+
+        "article-head_4": "Mint date?",
+        "article_4_p4": "Mint date is TBA. Keep an eye out for opportunities to join the whitelist and secure a guaranteed spot at owning an Arcane Avian. We will not stealth launch and will give everyone plenty of time to be notified of the launch date and time.",
+
+        "article-head_5": "How many avians will there be?",
+        "article_5_p5": "As mentioned previously, there will be 3800 Arcane Avian NFTs in total, 50 will be withheld for the team, for collaborations, and for giveaways. 15 NFTs from this collection are unique 1 of 1s. 10 of these will be animated. These 15 will be available from OpenSea auctions, giveaways, and the initial mint. 5 from each."
+    }
+]
