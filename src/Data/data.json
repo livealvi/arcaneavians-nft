@@ -1,0 +1,74 @@
+{
+    "top": {
+        "img_gif": "./asset/img/tokengif.gif",
+        "header": "About",
+        "info": "1 $FLAP = 1 $FLAP",
+        "article": "Each avian held will allow the holder to receive a multitude of utilities that will be announced and explained more thoroughly over time. Owning an avian will allow you to claim $FLAP tokens regularly. Your tokens will reward you in game, in the real world, and in the metaverse. Expect loads of airdrops and unlockables ranging from in game cosmetics, other generations of Arcane Avians NFTs, collaborations with other projects, and digital 3D models and variations of your own avian. That is just a taste of what is to come. We strive to be a community based project first and foremost and are determined to reward members within the community as much as possible. Expect a ton of collaborations over time and frequent updates and engagement. we have a lot planned and hope our holders have fun along the way."
+    },
+    "phases": [{
+            "title": "Phase 1",
+            "article": [{
+                    "head": "Mythic Auction",
+                    "paragraph": [
+                        "Introducing some of the rarest Avians in the genesis collection. These 15 will be dispersed evenly between auctions, giveaways, and through the initial mint. These will all be unique 1/1 Avians, 10 of which will be animated",
+                        "After minting goes live a lucky few of you will be holders of some of these mythic avians then we will auction off a portion of the other mythics on OpenSea. Giveaways for the other mythics may be more sporadic so keep your eyes peeled and stay on the lookout for these opportunities. expect more giveaways from us throughout time."
+                    ]
+                },
+                {
+                    "head": "Allocation of proceeds",
+                    "paragraph": [
+                        "10% of the proceeds from the initial mint as well as 2.5% of the secondary market sales will go to a Production wallet that will be used to further develop the project and to reward the talent within our community. Holders will be able to vote, suggest, and decide on the paths we take together.",
+                        "5% of the the proceeds from the initial mint will be donated to various families that are in need of assistance.",
+                        "35% of the proceeds from the auctions will go towards funding the production wallet.",
+                        "15% of the proceeds from the auctions will go towards helping families in need."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Phase 2",
+            "article": [{
+                    "head": "Token",
+                    "paragraph": [
+                        "Shortly after minting we will release our contract so holders will be able to claim their $FLAP tokens. More information will be available on the tokens after certain aspects have been finalized."
+                    ]
+                },
+                {
+                    "head": "Team",
+                    "paragraph": [
+                        "We would like to expand our team for certain positions that we could use more experience and help with. What better way than looking for participants within the community who already share similar interests and want this project to thrive as much as we do. As well as searching and officiating relationships with other artists and developers around the world to continue the development of our project in various ways."
+                    ]
+                },
+                {
+                    "head": "New Generation",
+                    "paragraph": [
+                        "Airdrops, new art, and utilities are a huge factor when it comes to any NFT project and we will ensure the most for our flock. Earn and unlock baby avians, in-game assets, avians from the future, pets, and more along this journey."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Phase 3",
+            "article": [{
+                "head": "Game",
+                "paragraph": [
+                    "Development of our own game will begin as well as partnerships with other games in the metaverse. Soon you will be able to soar across the metaverse in style, being your own avian.",
+                    "A few Arcane Avian mini-games will be released while we work on the actual game over time.",
+                    "interactive lounge for holders to hang out and enjoy the mini-games/events within the lobby. Will more than likely be intertwined in some way with the official game itself.",
+                    "Our game will mainly be composed of ideas from holders inside the community. You will serve a significant role in making the game what it is along with other aspects of the project.",
+                    "Expect to receive airdrops of items/cosmetics in game just by holding an avian at the time of a snapshot, some of which you’ll never be capable of earning or unlocking again after the initial airdrop."
+                ]
+            }]
+        },
+        {
+            "title": "Phase 4",
+            "article": [{
+                "head": "TBA",
+                "paragraph": [
+                    "After seeing the direction the projects going and the wants and needs for the project and its holders we will then determine what this phase will entail and the many phases thereafter.",
+                    "We are excited to get the members of the community as involved in the future of the project as possible and cannot wait to see where this thing goes."
+                ]
+            }]
+        }
+    ]
+}
