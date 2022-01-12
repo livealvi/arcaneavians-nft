@@ -1,13 +1,28 @@
 import React from "react";
 import "./Section.css";
+import data from "../../Data/data.json";
+import About from "../../components/About/About";
+import Roadmap from "../Roadmap/Roadmap";
+import FAQ from "../FAQ/FAQ";
 
-export const Section = (props) => {
-  const { header, info, article } = props.section;
+export const Section = () => {
   return (
-    <div>
-      <h1>{header}</h1>
-      <h2>{info}</h2>
-      <p>{article}</p>
+    <div className="section">
+      <div className="section__block">
+        <About about={data.top}></About>
+      </div>
+      <div className="section__block">
+        <h1 className="section__head">Roadmap</h1>
+        {data.phases.map((phases) => (
+          <Roadmap phases={phases}></Roadmap>
+        ))}
+      </div>
+      <div className="section__block">
+        <h1 className="section__head">FAQS</h1>
+        {data.bottom.map((faq) => (
+          <FAQ faq={faq}></FAQ>
+        ))}
+      </div>
     </div>
   );
 };

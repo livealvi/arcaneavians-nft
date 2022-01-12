@@ -1,0 +1,13 @@
+.space {
+    max-width: 864px;
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    background-color: black;
+}
+
+::selection {
+    background-color: rgb(141 67 239)
+}

@@ -1,0 +1,20 @@
+.about {
+    padding-bottom: 50px;
+}
+
+.about__heading,
+h1,
+p {
+    color: white;
+}
+
+.about__info {
+    color: #FFCB00;
+    padding: 48px;
+}
+
+
+
+.about__heading {
+    padding: 40px;
+}

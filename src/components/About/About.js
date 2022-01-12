@@ -1,9 +1,17 @@
 import React from "react";
+import coin_gif from "../../Data/asset/img/tokengif.gif";
+import "./About.css";
 
-const About = () => {
+const About = (props) => {
+  const { header, info, article } = props.about;
   return (
-    <div>
-      <h1>This is About</h1>
+    <div className="about">
+      <h1 className="about__heading">{header}</h1>
+      <div className="about__img">
+        <img src={coin_gif} alt="" />
+      </div>
+      <h2 className="about__info">{info}</h2>
+      <p className="about__article">{article}</p>
     </div>
   );
 };
