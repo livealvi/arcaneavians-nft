@@ -10,11 +10,12 @@ function App() {
   return (
     <div>
       <HeroSection />
-      <div className="slider">
+      {/* <div className="slider">
         <ImageSlider />
-      </div>
+      </div> */}
       <div className="section">
         <div className="space">
+        <ImageSlider />
           <Section />
         </div>
       </div>

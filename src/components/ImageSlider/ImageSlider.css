@@ -1,9 +1,16 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slider img {
+    padding-right: 20px;
+}
+
 .image-slider {
-    width: 60%;
-    margin: 0 auto;
-    background-color: black;
+    /* margin: 0 auto; */
+    /* background-color: black; */
 }
 
 .image-slider__container>img {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+
 }
