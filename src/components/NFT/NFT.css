@@ -8,9 +8,15 @@
 
 .nft__img {
     margin: 5px 5px;
+    width: 131px;
 }
 
 .nft__img img {
-    width: 131px;
-    height: 131px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nft__img {
+        width: 217px;
+    }
 }

@@ -10,17 +10,12 @@ function App() {
   return (
     <div>
       <HeroSection />
-      {/* <div className="slider">
-        <ImageSlider />
-      </div> */}
       <div className="section">
         <div className="space">
         <ImageSlider />
           <Section />
-          
         </div>
       </div>
-      
       <Footer />
     </div>
   );

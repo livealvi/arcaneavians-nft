@@ -3,7 +3,7 @@ import "./Article.css";
 import NFT from "../NFT/NFT";
 
 const Article = (props) => {
-  const { head, paragraph } = props.articles;
+  const { head, paragraph, img_grid } = props.articles;
   return (
     <div className="article">
       <div className="article__content">
@@ -13,9 +13,7 @@ const Article = (props) => {
           className="article__content__paragraph"
           dangerouslySetInnerHTML={{ __html: paragraph }}
         />
-        <div className="article__content__grid">
-          {props.articles.img_grid && <NFT />}
-        </div>
+        <div className="article__content__grid">{img_grid && <NFT />}</div>
       </div>
     </div>
   );
