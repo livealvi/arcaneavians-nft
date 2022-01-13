@@ -5,7 +5,6 @@ import coin from "../../Data/asset/img/tokenpng.png";
 
 const Roadmap = (props) => {
   const { title, article } = props.phases;
-  console.log(props.phases);
   return (
     <div className="roadmap">
       <div className="roadmap__box">
@@ -13,8 +12,8 @@ const Roadmap = (props) => {
         <div className="roadmap__coinImg">
           <img src={coin} alt="" />
         </div>
-        {article.map((text) => (
-          <Article articles={text}></Article>
+        {article.map((text, index) => (
+          <Article key={index} articles={text}></Article>
         ))}
       </div>
     </div>

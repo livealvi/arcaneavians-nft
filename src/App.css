@@ -10,6 +10,10 @@
     font-weight: 600;
 }
 
+.slider{
+    background-color: black;
+}
+
 ::selection {
     background-color: rgb(141 67 239)
 }

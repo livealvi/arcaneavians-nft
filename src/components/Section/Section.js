@@ -13,14 +13,14 @@ export const Section = () => {
       </div>
       <div className="section__block">
         <h1 className="section__head">Roadmap</h1>
-        {data.phases.map((phases) => (
-          <Roadmap phases={phases}></Roadmap>
+        {data.phases.map((phases, index) => (
+          <Roadmap key={index} phases={phases}></Roadmap>
         ))}
       </div>
       <div className="section__block">
         <h1 className="section__head">FAQS</h1>
-        {data.bottom.map((faq) => (
-          <FAQ faq={faq}></FAQ>
+        {data.bottom.map((faq, index) => (
+          <FAQ key={index} faq={faq}></FAQ>
         ))}
       </div>
     </div>

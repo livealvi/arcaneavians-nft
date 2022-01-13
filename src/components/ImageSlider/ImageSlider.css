@@ -1,0 +1,9 @@
+.image-slider{
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.slider__image_container > img{
+    margin: 0 auto;
+}

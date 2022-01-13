@@ -1,5 +1,6 @@
 import "./App.css";
 import HeroSection from "./components/HeroSection/HeroSection";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Section } from "./components/Section/Section";
@@ -9,6 +10,9 @@ function App() {
   return (
     <div>
       <HeroSection />
+      <div className="slider">
+        <ImageSlider />
+      </div>
       <div className="section">
         <div className="space">
           <Section />
