@@ -5,18 +5,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Section } from "./components/Section/Section";
 import Footer from "./components/Footer/Footer";
 
-
 function App() {
   return (
     <div>
       <HeroSection />
       <div className="section">
         <div className="space">
-        <ImageSlider />
+          <div style={{margin:"0 50px"}}>
+            <ImageSlider />
+          </div>
           <Section />
         </div>
       </div>
       <Footer />
+      <button onClick={() => console.log(window.innerWidth)}>Test</button>
     </div>
   );
 }
