@@ -12,21 +12,22 @@ const Header = () => {
           <img src={logo} alt="logo" />
         </div>
 
+        <div className="navbar__social_icon">
+          <ul>
+            <li>
+              <a className="navbar__social_icon__twitter" href="">
+                <FontAwesomeIcon icon={faTwitterSquare} />
+              </a>
+            </li>
+            <li>
+              <a className="navbar__social_icon__discord" href="">
+                <FontAwesomeIcon icon={faDiscord} />
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="navbar__links">
-          <div className="navbar__social_icon">
-            <ul>
-              <li>
-                <a href="">
-                  <FontAwesomeIcon icon={faTwitterSquare} />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <FontAwesomeIcon icon={faDiscord} />
-                </a>
-              </li>
-            </ul>
-          </div>
           <ul>
             <li>
               <a href="">Home</a>
