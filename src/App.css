@@ -10,8 +10,16 @@
     font-weight: 600;
 }
 
-.slider{
+.slider {
+
+    padding: 200px 0 100px 0;
     background-color: black;
+    text-align: center;
+}
+
+.slider>h1 {
+    text-transform: uppercase;
+    padding-bottom: 50px;
 }
 
 ::selection {

@@ -8,19 +8,49 @@ const ImageSlider = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    slidesPerRow: 3,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
-    <Slider className="image-slider" {...settings}>
-      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((fileNo) => (
-        <div className="slider__image_container" key={fileNo}>
+    <>
+      <h1>Preview</h1>
+      <Slider className="image-slider" {...settings}>
+      {[1, 2, 3, 4, 5, 6, 7, 8].map((fileNo) => (
+        <div className="image-slider__container" key={fileNo}>
           <img src={`/SliderImg/ArcaneAviansRandom${fileNo}.png`} alt=""></img>
         </div>
       ))}
     </Slider>
+    </>
+    
   );
 };
 
