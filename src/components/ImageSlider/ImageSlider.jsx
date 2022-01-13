@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-
 import "./ImageSlider.css";
 
 const ImageSlider = () => {
@@ -40,9 +39,9 @@ const ImageSlider = () => {
   return (
     <>
       <h1>Preview</h1>
-      <Slider className="image-slider" {...settings}>
+      <Slider className="image_slider" {...settings}>
       {[1, 2, 3, 4, 5, 6, 7, 8].map((fileNo) => (
-        <div className="image-slider__container" key={fileNo}>
+        <div className="image_slider__container" key={fileNo}>
           <img src={`/SliderImg/ArcaneAviansRandom${fileNo}.png`} alt=""></img>
         </div>
       ))}

@@ -1,7 +1,7 @@
 import React from "react";
 import Article from "../Article/Article";
 import "./Roadmap.css";
-import coin from "../../Data/asset/img/tokenpng.png";
+import coin from "../../asset/img/tokenpng.png";
 
 const Roadmap = (props) => {
   const { title, article } = props.phases;

@@ -1,5 +1,5 @@
 import React from "react";
-import coin_gif from "../../Data/asset/img/tokengif.gif";
+import coin_gif from "../../asset/img/tokengif.gif";
 import "./About.css";
 
 const About = (props) => {

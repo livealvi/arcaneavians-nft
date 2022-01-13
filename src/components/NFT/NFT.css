@@ -1,0 +1,16 @@
+.nft {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 705px;
+    justify-content: center;
+}
+
+.nft__img {
+    margin: 5px 5px;
+}
+
+.nft__img img {
+    width: 131px;
+    height: 131px;
+}

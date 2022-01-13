@@ -2,15 +2,64 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .slider img {
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
-.image-slider {
+.slick-slide {
+    /* margin: 0 26px; */
+}
+
+.slick-prev {}
+
+.slick-next {
+    background: transparent;
+}
+
+
+.image_slider {
     /* margin: 0 auto; */
     /* background-color: black; */
 }
 
-.image-slider__container>img {
+.image_slider__container {
     /* margin: 0 auto; */
-
+    /* width: 200px !important; */
 }
+
+.image_slider__container img {
+    /* margin: 0 10px; */
+}
+
+/* 
+.slick-prev:before,
+.slick-next:before {
+    font-family: "slick";
+    font-size: 40px;
+    line-height: 1;
+    color: white;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before {
+    content: "‹";
+}
+
+[dir="rtl"] .slick-prev:before {
+    content: "›";
+}
+
+[dir="rtl"] .slick-next {
+    left: -10px;
+    top: 70px;
+    right: auto;
+}
+
+.slick-next:before {
+    content: "›";
+}
+
+[dir="rtl"] .slick-next:before {
+    content: "‹";
+} */

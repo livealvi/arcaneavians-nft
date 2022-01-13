@@ -11,6 +11,10 @@
     margin: 20px 0 40px 0;
 }
 
+.article__content__grid {
+    padding: 20px 0 30px;
+}
+
 span {
     font-size: 50px;
     color: white;
