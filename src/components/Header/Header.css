@@ -45,6 +45,11 @@ li a {
     margin: 0 5px 0 5px;
 }
 
+.navbar__social_icon>ul>li>a:hover {
+    cursor: pointer;
+    color: inherit;
+}
+
 .navbar__social_icon__twitter {
     color: #00acee;
     background-color: white;
