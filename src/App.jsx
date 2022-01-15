@@ -11,14 +11,13 @@ function App() {
       <HeroSection />
       <div className="section">
         <div className="space">
-          <div style={{margin:"0 50px"}}>
+          <div className="slider" style={{margin:"0 50px"}}>
             <ImageSlider />
           </div>
           <Section />
         </div>
       </div>
       <Footer />
-      <button onClick={() => console.log(window.innerWidth)}>Test</button>
     </div>
   );
 }
